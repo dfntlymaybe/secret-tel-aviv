@@ -37,6 +37,33 @@ nav li a {
 	margin: 0px auto;
 	padding-top: 70px;
 }
+.food h1{
+  margin: 0;
+  font-family: 'Open Sans';
+  text-align: center;
+  font-weight: bold;
+  padding: 25px;
+}
+.food h3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.food img{
+  width: 100%;
+}
+.column{
+  width: 33.3%;
+  float: left;
+}
+.column-inner{
+  padding:20px;
+}
+section {
+  background-color: #ddd;
+}
 /*
 li:first-child{
 	color: green;
