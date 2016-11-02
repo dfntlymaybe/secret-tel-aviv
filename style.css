@@ -37,21 +37,25 @@ nav li a {
 	margin: 0px auto;
 	padding-top: 70px;
 }
-.food h1{
+h1{
   margin: 0;
   font-family: 'Open Sans';
   text-align: center;
   font-weight: bold;
   padding: 25px;
 }
-.food h3 {
+h3 {
   text-align: center;
   font-weight: bold;
   font-family: 'Open Sans';
   margin-bottom: 5px;
   font-size: 18px;
 }
-.food img{
+h4{
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+img{
   width: 100%;
 }
 .column{
@@ -61,11 +65,52 @@ nav li a {
 .column-inner{
   padding:20px;
 }
+.main-bulk, .side-bar{
+  background-color: #fff;
+  margin: 10px;
+}
+.night-life h3{
+  padding: 20px;
+}
+.night-life p{
+  padding: 0 20px 20px 20px;
+ }
+.main
 section {
   background-color: #ddd;
+}
+section .night-life{
+  background-color: #DDDDDD;
 }
 /*
 li:first-child{
 	color: green;
 }
 */
+.column-70{
+  height: 400px;
+  width: 70%;
+  float: left; 
+}
+.column-30{
+  height: 400px;
+  width: 30%;
+  float: left;
+}
+
+.row:before {
+  display: table;
+  content: "";
+}
+
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+@media (max-width: 700px) {
+  .column, .column-30, .column-70{
+    width: 100%;
+  }
+}
